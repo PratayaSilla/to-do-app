@@ -354,4 +354,54 @@ h1 {
   background-color: #121212;
   color: #e0e0e0;
 }
+.edit-button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.dark-mode .edit-button {
+  background-color: #3399ff;
+}
+
+.dark-mode .edit-button:hover {
+  background-color: #1a75d1;
+}
+.edit-input {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  width: 120px;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: border 0.2s ease;
+}
+
+.edit-input:focus {
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+.dark-mode .edit-input {
+  background-color: #2b2b2b;
+  border: 1px solid #555;
+  color: #eee;
+}
+
+.dark-mode .edit-input:focus {
+  border-color: #3399ff;
+  background-color: #1e1e1e;
+}
 
