@@ -147,6 +147,7 @@ function App() {
         </div>
       </div>
 <FocusTimer />
+      <h3>Complete a task to see some magic happen !</h3>
 <footer className="footer">
   Made with ❤️ by Prataya
 </footer>
