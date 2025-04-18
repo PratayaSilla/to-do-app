@@ -91,7 +91,7 @@ function App() {
   
       {/* 🎯 Wrap heading + card inside app-wrapper */}
       <div className="app-wrapper">
-        <h1 className="app-title">To-Do App</h1>
+        <h1 className="app-title">Welcome to TaskTide</h1>
 
         <div className="app-container">
           <div className="input-section">
@@ -147,7 +147,11 @@ function App() {
         </div>
       </div>
 <FocusTimer />
+<footer className="footer">
+  Made with ❤️ by Prataya
+</footer>
     </div>
   );
 }
+
 export default App;  

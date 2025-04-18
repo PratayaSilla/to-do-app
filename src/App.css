@@ -337,3 +337,21 @@ h1 {
 .dark-mode .section-title {
   color: #E0F11F;
 }
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #555;
+  background-color: #f0f0f0; 
+  z-index: 10; 
+}
+
+.dark-mode .footer {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
